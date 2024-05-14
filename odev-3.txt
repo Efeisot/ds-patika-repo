@@ -1,0 +1,24 @@
+########################################################################################################################
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız:
+
+Root x = 6 icin;
+                             6
+                          /      \ 
+                        5          7
+                      /              \
+                    1                  8
+                  /    \                  \
+                0        3                 9
+                      /    \      
+                    2        4    
+                                
+adim 1: 7>6 icin rootun saginda 7 bulunur
+adim 2: 5<6 icin rootun solunda 5 bulunur
+adim 3: 1<6 icin 1 rootun soluna eklenir
+adim 4: 8>6 icin 8 rootun sagına eklenir
+adim 5: 3<6 icin 3 rootun soluna eklenir
+adim 6: 0<6 icin 0 rootun soluna eklenir
+adim 7: 9>6 icin 9 rootun sagına eklenir
+adim 8: 4<6 icin 4 rootun soluna eklenir                        
+adim 9: 2<6 icin 2 rootun soluna eklenir   
+########################################################################################################################
